@@ -1,0 +1,9 @@
+C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Edge of Twilight.exe
+C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Edge of Twilight.pdb
+C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\obj\x86\Debug\Edge of Twilight.exe
+C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\obj\x86\Debug\Edge of Twilight.pdb
+C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Content\Textures\FontLarge.xnb
+C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Content\Textures\FontSmall.xnb
+C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Content\Textures\SinglePixel.xnb
