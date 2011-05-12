@@ -6,7 +6,7 @@ namespace Edge_of_Twilight.Classes
 {
     class Camera
     {
-        public static Vector2 position;
+        public static Vector2 position = Vector2.Zero;
 
         public static Vector2 GetScreenPosition(Vector2 worldPosition)
         {

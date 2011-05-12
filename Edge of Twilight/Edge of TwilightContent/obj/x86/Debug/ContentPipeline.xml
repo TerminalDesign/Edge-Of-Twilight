@@ -7,7 +7,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Content\Textures\FontLarge.xnb</Output>
+      <Output>C:\Users\Shervin\documents\visual studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Content\Textures\FontLarge.xnb</Output>
       <Time>2010-04-02T12:08:24-04:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Content\Textures\FontSmall.xnb</Output>
+      <Output>C:\Users\Shervin\documents\visual studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Content\Textures\FontSmall.xnb</Output>
       <Time>2010-04-02T12:08:34-04:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Content\Textures\SinglePixel.xnb</Output>
+      <Output>C:\Users\Shervin\documents\visual studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Content\Textures\SinglePixel.xnb</Output>
       <Time>2010-04-02T15:27:14-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -34,10 +34,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of TwilightContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of TwilightContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Shervin\Documents\Visual Studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Shervin\documents\visual studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of TwilightContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Shervin\documents\visual studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Shervin\documents\visual studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of TwilightContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Shervin\documents\visual studio 2010\Projects\Edge of Twilight\Edge of Twilight\Edge of Twilight\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

@@ -30,25 +30,16 @@ namespace Edge_of_Twilight.Classes
         }
 
         List<BackgroundItem> backgrounds;
-        public List<Actor> actors;
         public Rectangle playBounds;
-        //public Player player1;
+
 
         public Level()
         {
             backgrounds = new List<BackgroundItem>();
-            actors = new List<Actor>();
         }
 
         public void Update(GameTime gt)
         {
-            for (int i = -0; i < actors.Count; i++)
-            {
-                actors[i].Update(gt);
-            }
-
-            //UpdateCameraPosition();
-
             if (InputHelper.WasKeyPressed(Keys.Q))
             {
                 AddToPlayArea(150);
@@ -62,29 +53,8 @@ namespace Edge_of_Twilight.Classes
                 backgrounds[i].Draw(sb);
             }
 
-            for (int i = 0; i < actors.Count; i++)
-            {
-                actors[i].Draw(sb);
-            }
 
-            //HUDManager.Draw(sbHud);
         }
-
-        /*
-        private void UpdateCameraPosition()
-        {
-            if (player1.position.X > Camera.position.X)
-            {
-                Camera.position.X += 3;
-                if (Camera.position.X + Game1.SCREEN_WIDTH / 2 > this.playBounds.Right)
-                {
-                    this.playBounds.Width += 3;
-                    Camera.position.X = this.playBounds.Right - Game1.SCREEN_WIDTH / 2;
-                }
-
-            }
-        }
-        */
 
         public void AddBackgroundItem(Texture2D texture, Vector2 position, float speed, float layerDepth)
         {
@@ -95,6 +65,5 @@ namespace Edge_of_Twilight.Classes
         {
             this.playBounds.Width += area;
         }
-    
     }
 }
