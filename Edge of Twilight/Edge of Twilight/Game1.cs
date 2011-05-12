@@ -91,7 +91,7 @@ namespace Edge_of_Twilight
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || exitGame)
                 this.Exit();
 
             // TODO: Add your update logic here

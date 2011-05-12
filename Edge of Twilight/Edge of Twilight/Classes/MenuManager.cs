@@ -87,7 +87,7 @@ namespace Edge_of_Twilight.Classes
                                 break;
 
                             case 1: //Options
-                                //GameManager.gameState = GameState.HowToPlay;
+                                GameManager.gameState = GameState.HowToPlay;
                                 break;
 
                             case 2: //Exit Game

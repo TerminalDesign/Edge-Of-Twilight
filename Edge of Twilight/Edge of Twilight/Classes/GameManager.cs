@@ -16,7 +16,7 @@ namespace Edge_of_Twilight.Classes
     static class GameManager
     {
         public static GameState gameState = GameState.MainMenu;
-        //public static List<Level> levels = new List<Level>();
+        public static List<Level> levels = new List<Level>();
         public static int currentLevel = 0;
 
         public static void Update(GameTime gameTime)
@@ -37,7 +37,7 @@ namespace Edge_of_Twilight.Classes
                     break;
 
                 case GameState.Playing:
-                    //levels[currentLevel].Update(gameTime);
+                    levels[currentLevel].Update(gameTime);
                     break;
             }
         }
@@ -50,15 +50,11 @@ namespace Edge_of_Twilight.Classes
                     MenuManager.Draw(SBHUD);
                     break;
                 case GameState.HowToPlay:
-                    SBHUD.Draw(Game1.sprSinglePixel, new Rectangle(0, 0, Game1.SCREEN_WIDTH, Game1.SCREEN_HEIGHT), Color.DarkGreen);
                     SBHUD.DrawString(Game1.fontSmall, "Move - Arrow Keys / D-Pad", new Vector2(179, 50), Color.White);
                     SBHUD.DrawString(Game1.fontSmall, "Jump - Space / A", new Vector2(179, 100), Color.White);
-                    SBHUD.DrawString(Game1.fontSmall, "Jab - A / X", new Vector2(179, 150), Color.White);
-                    SBHUD.DrawString(Game1.fontSmall, "Cross - S / Y", new Vector2(179, 200), Color.White);
-                    SBHUD.DrawString(Game1.fontSmall, "Kick - D / B", new Vector2(179, 250), Color.White);
                     break;
                 case GameState.Playing:
-                    //levels[currentLevel].Draw(SB, SBHUD);
+                    levels[currentLevel].Draw(SB, SBHUD);
                     break;
             }
 
